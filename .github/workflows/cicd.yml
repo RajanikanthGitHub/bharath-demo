@@ -38,3 +38,7 @@ jobs:
         run: |
           echo Print ENV
           printenv
+      - name: Print Repo Secret
+        run: |
+          echo Print Repo Secret
+          printenv | grep ADO_PAT
